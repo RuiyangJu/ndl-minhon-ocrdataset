@@ -214,18 +214,15 @@ Python 3.8以降に対応しています。
   pip install -r requirements.txt
 ```
 
-### 1. 事前準備
+### 2. Preparation
+Download: https://lab.ndl.go.jp/dataset/ndlkotensekiocr/ndl-minhon-ocrdataset_20240207.zip.
 
-データセットのzipファイルを展開し、同じディレクトリに、srcディレクトリ内のファイルを配置してください。
+Put `v1` and `v2` into `ndl-minhon-ocrdataset`.
 
-### 2. 画像のダウンロード
-v1の画像をダウンロードする場合は次の通りです。(img_v1ディレクトリが作成され、画像がダウンロードされます。)
+### 3. Download Images
 ```
-python3 imgdownloader.py v1
-```
-v2をダウンロードする場合は次の通りです。(img_v2ディレクトリが作成され、画像がダウンロードされます。)
-```
-python3 imgdownloader.py v2
+  python3 ./src/imgdownloader.py v1
+  python3 ./src/imgdownloader.py v2
 ```
 
 ### 3. 1行データセットの作成
