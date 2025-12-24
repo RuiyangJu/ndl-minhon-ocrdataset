@@ -204,8 +204,15 @@ v2
 ## 利用方法
 srcディレクトリ内に、サンプルとしてPythonによる処理プログラムを配置しています。
 
-Python 3.8以降に対応しています。必要なライブラリについては[requirements.txt](./src/requirements.txt)を参照してください。
+Python 3.8以降に対応しています。
 
+### 1. Environment
+```
+  git clone https://github.com/ndl-lab/ndl-minhon-ocrdataset.git
+  cd ndl-minhon-ocrdataset
+  cd src
+  pip install -r requirements.txt
+```
 
 ### 1. 事前準備
 
