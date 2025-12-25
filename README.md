@@ -225,14 +225,10 @@ Put `v1` and `v2` into `ndl-minhon-ocrdataset`.
   python3 ./src/imgdownloader.py v2
 ```
 
-### 3. 1行データセットの作成
-v1から作成する場合は次の通りです。(honkoku_oneline_v1ディレクトリが作成され、ディレクトリ直下に1行単位に切り分けられたjpgファイルとtxtファイルが同名で出力されます。)
+### 4. Create Dataset
 ```
-python3 makeonelinedataset.py v1
-```
-v2から作成する場合は次の通りです。(honkoku_oneline_v2ディレクトリが作成され、ディレクトリ直下に1行単位に切り分けられたjpgファイルとtxtファイルが同名で出力されます。)
-```
-python3 makeonelinedataset.py v2
+  python3 ./src/makeonelinedataset.py v1
+  python3 ./src/makeonelinedataset.py v2
 ```
 
 
