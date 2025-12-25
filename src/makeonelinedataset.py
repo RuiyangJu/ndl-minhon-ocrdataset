@@ -55,7 +55,7 @@ if __name__ == '__main__':
                     img = cv2.imread(imgfilepath)
                     with open(jsonfilepath, "r", encoding="utf-8") as jsonfile_open:
                         jsonfile_load = json.load(jsonfile_open)
-                        for index, word in enumerate(jsonfile_load):
+                        for index, word in enumerate(jsonfile_load["words"]):
                             x0, y0 = word["boundingBox"][0]
                             x1, y1 = word["boundingBox"][1]
                             x2, y2 = word["boundingBox"][2]
