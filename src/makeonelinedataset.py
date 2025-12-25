@@ -9,7 +9,7 @@ if __name__ == '__main__':
     if len(args)>=2:
         if args[1]=="v1":
            mode="v1"
-        elif args[2]=="v2":
+        elif args[1]=="v2":
             mode="v2"
         else:
             print("The parameter must be 'v1 'or 'v2'.")
